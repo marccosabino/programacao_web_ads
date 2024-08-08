@@ -1,0 +1,14 @@
+#titulo {
+    color: red;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.texto-paragrafo {
+    text-align: center;
+}
+
+.entradas-usuario {
+    border: 1px solid;
+
+}
