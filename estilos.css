@@ -34,6 +34,7 @@ input {
 button {
     background-color: brown;
     border-radius: 10px;
+    transition: 0.2s;
     border: none;
     outline: none;
     padding: 15px;
@@ -44,6 +45,12 @@ button {
 }
 button:hover {
     background-color: rgb(183, 50, 50);
+    box-shadow: 0 0 0 4px #fff,
+    0 0 0 8px rgba(212,87,111,255);
+}
+
+button:active {
+    transform: scale(0.96);
 }
 
 footer {
