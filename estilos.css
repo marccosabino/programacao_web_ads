@@ -1,61 +1,31 @@
-body {
-    color: rgb(255, 255, 255);
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(100deg, rgb(226, 47, 47), rgb(237, 70, 148));
+* {
+    margin: 0px;
 }
 
-h1 {
-    text-align: center;
-}
-p {
+#titulo {
+    color: red;
     text-align: center;
 }
 
-.dados {
-    border: none;
-    background-color: rgba(0, 0, 0, 0.5);
+.texto-paragrafo {
+    text-align: center;
+}
+
+.entradas-usuario {
+    border: 1px solid;
+    width: 50%;
+    margin: auto;
     position: absolute;
-    top: 50%;
+    bottom: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 30px;
-    border-radius: 15px;
 }
 
-input {
-    padding: 15px;
-    border: none;
-    border-radius: 5px;
-    outline: none;
-    font-size: 15px;
-    width: 80%;
-}
-
-button {
-    background-color: brown;
-    border-radius: 10px;
-    transition: 0.2s;
-    border: none;
-    outline: none;
-    padding: 15px;
-    width: 95%;
-    font-size: 15px;
-    color: white;
-    cursor: pointer;
-}
-button:hover {
-    background-color: rgb(183, 50, 50);
-    box-shadow: 0 0 0 4px #fff,
-    0 0 0 8px rgba(212,87,111,255);
-}
-
-button:active {
-    transform: scale(0.96);
-}
-
-footer {
-    margin-top: 800px;
-    color: white;
+.rodape {
+    position: fixed;
     width: 100%;
-    height: 100px;
+    bottom: 0;
+    background-color: #ccc;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
